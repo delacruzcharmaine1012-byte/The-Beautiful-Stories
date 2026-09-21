@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Beautiful Stories</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar" id="home">
+        <h1>The Beautiful Stories</h1>
+
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#stories">Stories</a>
+            <a href="#about">About</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Discover the Magic of Storytelling</h2>
+            <p>Step into a world where imagination meets reality, and every story is a gateway to endless possibilities.</p>
+
+            <a href="#stories" class="hero-button-link"><button class="hero-button">Explore Stories</button></a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-image">
+            <img src="8471b51203027b2deac72e6081a0d88c.jpg" alt="Library">
+        </div>
+
+        <div class="about-content">
+            <h2>Discover our Collection</h2>
+            <p>Stories crafted to spark imagination, warm the heart, and carry you beyond the ordinary. Every tale is a doorway to new worlds, feelings, and unforgettable journeys.</p>
+            <p>Each tale is carefully crafted to ignite the imagination and provide an escape from the ordinary.</p>
+        </div>      
+    </section>
+
+    <section class="stories" id="stories">
+        <h2>Featured Stories</h2>
+        <p class="stories-description">Choose a story and discover a new world.</p>
+
+        <div class="story-cards">
+            <div class="story-card">
+                <img src="ea32740bfdcdb5acf57c958ecbe2a4b7.jpg" alt="The Whispering Clockwork">
+                <div class="story-card-content">
+                    <h3>When we love again</h3>
+                    <p>A tender second-chance romance about two people who once loved deeply then fell apart. When fate brings them back together, they must confront past hurts and decide whether to trust each other again. It explores love, forgiveness, and whether some bonds are strong enough to be reborn.</p>
+                    <button class="read-more-btn">Read More</button>
+                </div>
+            </div>
+
+            <div class="story-card">
+                <img src="bc025d01128457ef24ead5b8f9139767.jpg" alt="Echoes of the Forgotten Station">
+                <div class="story-card-content">
+                    <h3>Beautiful Lies</h3>
+                    <p>Two souls find comfort in each other during a storm, but their love is built on secrets and spoken words that may not be true. As feelings deepen, they face a painful truth: can a relationship survive when you’re not sure what is real? A heartfelt story about longing, sacrifice, and the fragile line between truth and fiction.</p>
+                    <button class="read-more-btn">Read More</button>
+                </div>
+            </div>
+
+            <div class="story-card">
+                <img src="465ba6bd88a8b6e56344375006c25d90.jpg" alt="The Midnight Garden of Ash">
+                <div class="story-card-content">
+                    <h3>The Rain When You Were Mine</h3>
+                    <p>Two students from different worlds stand side by side in the rain, unaware of how deeply their lives will soon intertwine. What starts as a quiet friendship at their university grows into a tender romance — but as seasons change, so do hearts. A nostalgic story about first love, shared memories, and the people who shape us forever.</p>
+                    <button class="read-more-btn">Read More</button>
+                </div>
+            </div>
+
+            <div class="story-card">
+                <img src="3b55c866ce3f1fec2553308fee634e45.jpg" alt="Beneath the Copper Sky">
+                <div class="story-card-content">
+                    <h3>When We Meet Again — After Ten Years</h3>
+                    <p>A decade after they parted, two people cross paths once more. Time has changed their faces and lives, but one thing remains the same: the love they thought they’d left behind. As old feelings resurface, they must choose between the lives they built apart — or the future they never got to have together.</p>
+                    <button class="read-more-btn">Read More</button>
+                </div>
+            </div>
+
+            <div class="story-card">
+                <img src="eabf2d336ab77347ec6edbdd1ba1e3cd.jpg" alt="The Last Coffee at 3 AM">
+                <div class="story-card-content">
+                    <h3>After the Last Goodbye</h3>
+                    <p>Some goodbyes are not forever. When a sudden separation leaves her heartbroken, she holds onto the belief that their story isn't truly over. Through memories, letters, and unexpected encounters, she discovers that love can transcend time and distance — and that sometimes, endings are just new beginnings.</p>
+                    <button class="read-more-btn">Read More</button>
+                </div>
+            </div>
+
+            <div class="story-card">
+                <img src="f0ee029e5f4b4e582cf9a1abcab44447.jpg" alt="Shadows in the Cipher">
+                <div class="story-card-content">
+                    <h3>The Girl with a Dream</h3>
+                    <p>A young woman dares to chase her biggest dreams in a big, overwhelming city. Along the way she discovers her own strength, faces doubts, and learns that success means more than just reaching a destination — it’s about who you become along the journey. A story of hope, courage, and self-discovery.</p>
+                    <button class="read-more-btn">Read More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal Overlay Structure -->
+    <div id="storyModal" class="modal-overlay">
+        <div class="modal-card">
+            <button class="modal-close">&times;</button>
+            <img id="modalImg" src="" alt="Story Image">
+            <div class="modal-text-content">
+                <h3 id="modalTitle"></h3>
+                <p id="modalDesc"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
